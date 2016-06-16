@@ -1,0 +1,28 @@
+.carousel-inner img{
+  width:100%;
+}
+.navbar-inverse, .footer{
+  background: #000033;
+  opacity: 0.9;
+  color: white;
+}
+
+#more{
+  position: relative;
+  right: 20px;
+}
+
+.follow ul li a img{
+  max-width: 5%;
+
+}
+
+.subtext{
+  padding-left: 5px;
+}
+
+.search{
+  margin-top: 6px;
+  margin-left: 3px;
+  margin-right: 9px;
+}

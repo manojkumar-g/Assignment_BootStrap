@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale= 1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
+    <title>FC Barcalona</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-target="#mainmenu" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+
+          FC Barcalona
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id ="mainmenu">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#slider" >Home</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#play">Play</a></li>
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right col-md-3">
+              <li>
+                <div class="input-group search">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+              </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class=" carousel slide" data-ride="carousel" id="slider" data-interval="3000">
+        <ol class="carousel-indicators">
+          <li data-target="#slider" data-slide-to:"0" class="active"></li>
+          <li data-target="#slider" data-slide-to:"1"></li>
+          <li data-target="#slider" data-slide-to:"2"></li>
+        </ol>
+        <div class="carousel-inner" role="slider">
+          <div class="item active">
+            <img src="/img/campnou.jpg"  alt="">
+            <div class="carousel-caption">
+              <h3 class="hidden-sm">some text</h3>
+              <p class="hidden-sm">some other tex</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/img/fcbwall.jpg"  alt="">
+            <div class="carousel-caption">
+              <h3 class="hidden-sm">some text</h3>
+              <p class="hidden-sm">some other tex</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/img/team.jpg"  alt="">
+            <div class="carousel-caption">
+              <h3 class="hidden-sm">some text</h3>
+              <p class="hidden-sm">some other tex</p>
+            </div>
+          </div>
+        </div>
+        <a href="#slider" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a href="#slider" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+    <div class="container text-center well" id ="team">
+      <h2 >Team</h2>
+      <h3><small>Click on player to Know more</small></h3>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#detail1" data-toggle="collapse">
+          <img class="img-thumbnail" src="/img/suarez.jpg" width="255px" height="255px" alt="">
+          </a>
+          <div id="detail1" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Born/age:: Jan 24, 1987</li>
+                <li class="list-group-item">Height: 1,82 m</li>
+                <li class="list-group-item">Position: Centre Forward</li>
+                <li class="list-group-item">Nationality:Uruguay</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+          </div>
+          <p><strong>Luis Suarez</strong></p>
+        </div>
+        <div class="col-md-4">
+          <a href="#detail2" data-toggle="collapse">
+          <img class="img-thumbnail" src="/img/messi.jpg" width="255px" height="255px" alt="">
+          </a>
+          <div id="detail2" class="collapse alert alert-info">
+            <ul class="list-group">
+              <li class="list-group-item">Born/age:: Jun 24, 1987 (28)</li>
+              <li class="list-group-item">Height: 1,70 m</li>
+              <li class="list-group-item">Position: Right Wing</li>
+              <li class="list-group-item">Nationality:Argentina</li>
+              <li class="list-group-item">
+                <button class="btn btn-success hidden-md hidden-lg">
+                  Call
+                </button>
+              </li>
+            </ul>
+          </div>
+          <p><strong>Leo Messi</strong></p>
+        </div>
+        <div class="col-md-4">
+          <a href="#detail3" data-toggle="collapse">
+          <img class="img-thumbnail" src="/img/naymar.jpg" width="255px" height="255px" alt="">
+          </a>
+          <div id="detail3" class="collapse alert alert-info">
+            <ul class="list-group">
+              <li class="list-group-item">Born/age:: Feb 5, 1992 (24)</li>
+              <li class="list-group-item">Height: 1,74 m</li>
+              <li class="list-group-item">Position: Left Wing</li>
+              <li class="list-group-item">Nationality:Brazil</li>
+              <li class="list-group-item">
+                <button class="btn btn-success hidden-md hidden-lg">
+                  Call
+                </button>
+              </li>
+            </ul>
+          </div>
+          <p><strong>Naymar JR</strong></p>
+        </div>
+      </div>
+      <br>
+      <div class="collapse container" id = "more">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#detail4" data-toggle="collapse">
+            <img class="img-thumbnail" src="/img/rakitic.jpg" width="255px" height="255px" alt="">
+            </a>
+            <div id="detail4" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Mar 10, 1988 (28)</li>
+                <li class="list-group-item">Height: 1,84 m</li>
+                <li class="list-group-item">Position: Central Midfield</li>
+                <li class="list-group-item">Nationality:Croatia</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <p><strong>Ivan Rakitic</strong></p>
+          </div>
+          <div class="col-md-4">
+            <a href="#detail5" data-toggle="collapse">
+            <img class="img-thumbnail" src="/img/busquets.jpg" width="255px" height="255px" alt="">
+            </a>
+            <div id="detail5" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Born/age:: Jan 24, 1987</li>
+                <li class="list-group-item">Height: 1,82 m</li>
+                <li class="list-group-item">Position: Centre Forward</li>
+                <li class="list-group-item">Nationality:Uruguay</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <p><strong>Sergio Busquets</strong></p>
+          </div>
+          <div class="col-md-4">
+            <a href="#detail6" data-toggle="collapse">
+            <img class="img-thumbnail" src="/img/iniesta.jpg" width="255px" height="255px" alt="">
+            </a>
+            <div id="detail6" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Born/age:: Jan 24, 1987</li>
+                <li class="list-group-item">Height: 1,82 m</li>
+                <li class="list-group-item">Position: Centre Forward</li>
+                <li class="list-group-item">Nationality:Uruguay</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <p><strong>Andrés Iniesta</strong></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#detail7" data-toggle="collapse">
+            <img class="img-thumbnail" src="/img/piqué.jpg" width="255px" height="255px" alt="">
+            </a>
+            <div id="detail7" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Born/age:: Jan 24, 1987</li>
+                <li class="list-group-item">Height: 1,82 m</li>
+                <li class="list-group-item">Position: Centre Forward</li>
+                <li class="list-group-item">Nationality:Uruguay</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <p><strong>Gerard Piqué</strong></p>
+          </div>
+          <div class="col-md-4">
+            <a href="#detail8" data-toggle="collapse">
+            <img class="img-thumbnail" src="/img/alba.jpg" width="255px" height="255px" alt="">
+            </a>
+            <div id="detail8" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Born/age:: Jan 24, 1987</li>
+                <li class="list-group-item">Height: 1,82 m</li>
+                <li class="list-group-item">Position: Centre Forward</li>
+                <li class="list-group-item">Nationality:Uruguay</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <p><strong>Jordi Alba</strong></p>
+          </div>
+          <div class="col-md-4">
+            <a href="#detail9" data-toggle="collapse">
+            <img class="img-thumbnail" src="/img/mascherano.jpg" width="255px" height="255px" alt="">
+            </a>
+            <div id="detail9" class="collapse alert alert-info">
+              <ul class="list-group">
+                <li class="list-group-item">Born/age:: Jan 24, 1987</li>
+                <li class="list-group-item">Height: 1,82 m</li>
+                <li class="list-group-item">Position: Centre Forward</li>
+                <li class="list-group-item">Nationality:Uruguay</li>
+                <li class="list-group-item">
+                  <button class="btn btn-success hidden-md hidden-lg">
+                    Call
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <p><strong>Javier Mascherano</strong></p>
+          </div>
+        </div>
+        <ul class="pagination pagination-lg">
+          <li><a href="#" class="active">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+    </ul>
+      </div>
+
+      <a href="#more" data-toggle="collapse">
+        <h3>More Players</h3>
+        <h2>
+          <span class="glyphicon glyphicon-menu-down">
+          <span class="glyphicon glyphicon-menu-down">
+          <span class="glyphicon glyphicon-menu-down">
+        </h2>
+      </a>
+      <br>
+      <br>
+
+    </div>
+    <div id="play" class="container jumbotron">
+      <h2 class="text-center">Play</h2>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#fixtures">Fixtures</a></li>
+        <li><a data-toggle="tab" href="#results">Results</a></li>
+        <li><a data-toggle="tab" href="#form">Form</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="fixtures" class ="tab-pane fade in active table-responsive">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Home Team</th>
+                    <th>Away Team</th>
+                    <th>Date</th>
+                    <th>Available Tickets</th>
+                    <th>Boot Ticket</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Barcalona</td>
+                    <td>Sevilla FC</td>
+                    <td>June 15</td>
+                    <td>100</td>
+                    <td><button class="btn btn-danger"type="button" name="button" data-toggle="modal" data-target="#bookmyshow">BookNow</button></td>
+                    <div class="modal fade" id="bookmyshow">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Book Your Ticket</h3>
+                          </div>
+                          <div class="modal-body">
+                            <form action="">
+                            <div class="form-group">
+
+                              <label for="Num">Number of Tickets</label>
+                              <input type="text" name="Num" value="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="type">Type of Tickets:</label>
+                              <select class="" name="" class="form-control">
+                                <option value="VIP">VIP</option>
+                                <option value="BOX">Box</option>
+                                <option value="Genaral">Genaral</option>
+                              </select>
+                            </div>
+
+                          </form>
+
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Book Now</button>
+                          </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  </tr>
+                  <tr>
+                    <td>Celtic FC</td>
+                    <td>Barcalona </td>
+                    <td>Jul 30</td>
+                    <td>10000</td>
+                    <td><button class="btn btn-primary"type="button" name="button" data-toggle="modal" data-target="#bookmyshow">BookNow</button></td>
+                  </tr>
+                  <tr>
+                      <td>Barcalona</td>
+                        <td>Leicester City</td>
+                        <td>Aug 03</td>
+                        <td>20000</td>
+                        <td><button class="btn btn-success"type="button" name="button" data-toggle="modal" data-target="#bookmyshow">BookNow</button></td>
+                  </tr>
+                </tbody>
+              </table>
+
+        </div>
+        <div id="results" class ="tab-pane fade table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Home Team</th>
+                <th>Away Team</th>
+                <th>Results</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Celtic FC</td>
+                <td>Barcalona </td>
+                <td><span class="label label-primary">0-2</span></td>
+
+              </tr>
+              <tr>
+                <td>Leicester City</td>
+                <td>Barcalona </td>
+                <td><span class="label label-primary">0-3</span></td>
+
+              </tr>
+              <tr>
+                <td>Sevilla FC</td>
+                <td>Barcalona </td>
+                <td><span class="label label-primary">0-2</span></td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div id="form" class ="tab-pane fade table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Compition</th>
+                <th>Form(Last 6 games)</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Laliga</td>
+
+                <td>
+                  <span class="label label-danger">L</span>
+                  <span class="label label-success">W</span>
+                  <span class="label label-success">W</span>
+                  <span class="label label-success">W</span>
+
+                  <span class="label label-success">W</span>
+                  <span class="label label-success">W</span>
+
+                </td>
+
+              </tr>
+              <tr>
+                <td>UEFA</td>
+
+                <td>
+                  <span class="label label-success">W</span>
+                  <span class="label label-warning">D</span>
+                  <span class="label label-success">W</span>
+
+                  <span class="label label-warning">D</span>
+                  <span class="label label-success">W</span>
+                  <span class="label label-danger">L</span>
+
+                </td>
+
+              </tr>
+              <tr>
+                <td>Copa Del Ray</td>
+
+                <td>
+                  <span class="label label-success">W</span>
+                  <span class="label label-warning">D</span>
+                  <span class="label label-success">W</span>
+
+                  <span class="label label-danger">L</span>
+                  <span class="label label-success">W</span>
+                  <span class="label label-success">W</span>
+
+                </td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer text-center container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Copyrights &copy; 2016</h4>
+        </div>
+        <div class="col-md-3">
+          <h4>About Us</h4>
+          <p>The object of these conditions for the use of the this website is to govern the free provision to the general public and FCB supporters in particular of access to sporting, institutional and social information, as well as information about the products and services offered by FCB, or by the CLUB’s third party suppliers and/or collaborators, that could be of interest to the user.</p>
+        </div>
+        <div class="col-md-3">
+          <h4 class="follow">Follow Us</h4>
+          <h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">
+                  <img src="/img/fb.png" alt="" width="25px" style="margin-bottom: 10px;"/>
+                  <span class="subtext label label-primary">Like on FB</span>
+                </a>
+              </li>
+              <li >
+                <a href="#">
+                  <img src="/img/twitter.png" alt="" width="25px" style="margin-bottom: 10px;" />
+                  <span class="subtext label label-primary">Follow Us</span>
+                </a>
+              </li>
+              <li >
+                <a href="#">
+                  <img src="/img/rss.png" alt="" width="25px" style="margin-bottom: 10px;"/>
+                  <span class="subtext label label-primary">Subscibe</span>
+                </a>
+              </li>
+              <li >
+                <a href="#">
+                  <img src="/img/youtube.png" alt="" width="25px" style="margin-bottom: 10px;"/>
+                  <span class="subtext label label-primary">Subscribe</span>
+                </a>
+              </li>
+
+            </ul>
+          </h5>
+        </div>
+        <div class="col-md-3">
+          <h4>Coded By Manoj</h4>
+        </div>
+
+      </div>
+
+
+    <script type="text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+    </script>
+    <script type="text/javascript" src = "/js/bootstrap.min.js">
+    </script>
+  </body>
+</html>
